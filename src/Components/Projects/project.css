@@ -20,25 +20,43 @@
   gap: 3rem;
   width: 90%;
 }
+
 .project-wrapper .container .project {
   width: 300px;
-  color: white;
+  color: black;
   display: flex;
+  padding: 0 1rem;
   flex-direction: column;
+  background-color: white;
+  text-align: left;
   gap: 1rem;
 }
+.project-wrapper .container .project h2 {
+  color: black;
+  text-align: left;
+  font-size: 2rem;
+  margin-top: 10px;
+}
 .project-wrapper .container .project img {
-  width: 300px;
   object-fit: cover;
 }
 .project-wrapper .container .project ul {
   padding: 0;
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  font-weight: bold;
 }
+
 .project-wrapper .container .project button {
   padding: 10px 1rem;
-  background-color: white;
-  border: none;
-  border-radius: 5px;
+  background-color: transparent;
   margin-right: 10px;
   cursor: pointer;
+}
+.project-wrapper .container .project .btn .btn-left {
+  border: 1px solid black;
+}
+.project-wrapper .container .project .btn .btn-right {
+  border: 1px solid #ffa621;
 }

@@ -3,64 +3,71 @@ import "./project.css";
 
 const allProjects = [
   {
-    name: "Remote Work Landing Page",
+    name: "REMOTE WORK",
     desc: "This is a landing page i built with html and css for a remote work platform",
     tag: ["html", "css", "javascript"],
     image:
       "https://res.cloudinary.com/dbdrtuscd/image/upload/v1652023483/Screenshot_2022-05-06_at_10.34.28_AM_efgfvg.png",
     github: "https://github.com/larrycoal/LandingPage_remote",
+    liveLink: "https://landing-page-remote.vercel.app/",
   },
   {
-    name: "Remote Work Landing Page",
+    name: "ORGANIC",
     desc: "This is a landing page i built with html and css for a remote work platform",
     tag: ["html", "css", "javascript"],
     image:
       "https://res.cloudinary.com/dbdrtuscd/image/upload/v1652023483/Screenshot_2022-05-06_at_10.32.10_AM_stugdz.png",
     github: "https://github.com/larrycoal/LandingPage_remote",
+    liveLink: "https://jolly-edison-f808d9.netlify.app",
   },
   {
-    name: "Remote Work Landing Page",
+    name: "OG NFT",
     desc: "This is a landing page i built with html and css for a remote work platform",
     tag: ["html", "css", "javascript"],
     image:
       "https://res.cloudinary.com/dbdrtuscd/image/upload/v1652023483/Screenshot_2022-05-06_at_10.34.53_AM_g0yl7w.png",
     github: "https://github.com/larrycoal/LandingPage_remote",
+    liveLink: "https://og-nft.vercel.app/",
   },
   {
-    name: "Remote Work Landing Page",
+    name: "RECIPIFY",
     desc: "This is a landing page i built with html and css for a remote work platform",
     tag: ["html", "css", "javascript"],
     image:
       "https://res.cloudinary.com/dbdrtuscd/image/upload/v1652023482/Screenshot_2022-05-06_at_10.25.28_AM_z7wxgs.png",
     github: "https://github.com/larrycoal/LandingPage_remote",
+    liveLink: "https://recipified.netlify.app",
   },
   {
-    name: "Remote Work Landing Page",
+    name: "GITHUB CLONE",
     desc: "This is a landing page i built with html and css for a remote work platform",
     tag: ["html", "css", "javascript"],
     image:
       "https://res.cloudinary.com/dbdrtuscd/image/upload/v1652023482/Screenshot_2022-05-06_at_10.33.46_AM_flgjyf.png",
     github: "https://github.com/larrycoal/LandingPage_remote",
+    liveLink: "https://loving-kilby-66f091.netlify.app",
   },
 ];
 
 const displayProject = (project, idx) => (
   <li key={idx} className="project">
-    <img src={project.image} alt="project thumbnail" />
-    <ul>
+    <h2 className="title">{project.name}</h2>
+    <p className="desc">{project.desc}</p>
+    <ul className="tags">
       {project.tag.map((tag, idx) => (
         <li key={idx}>{tag}</li>
       ))}
     </ul>
-    <p>{project.desc}</p>
-    <div>
-      <a href="/">
-        <button>Live Link</button>
+    <div className="btn">
+      <a href={project.liveLink} target="_blank" rel="noreferrer">
+        <button className="btn-left">Live Link</button>
       </a>
-      <a href="/">
-        <button>Github Link</button>
+      <a href={project.github} target="_blank" rel="noreferrer">
+        <button className="btn-right">Github Link</button>
       </a>
     </div>
+
+    <img src={project.image} alt="project thumbnail" />
   </li>
 );
 const Project = () => {

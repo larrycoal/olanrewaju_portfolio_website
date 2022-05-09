@@ -6,11 +6,11 @@ import sqlIcon from "../../Assets/sql_icon.png";
 const skillCard = [
   {
     icon: nodeIcon,
-    name: "Backend Engeneering",
+    name: "Backend Engineering",
   },
   {
     icon: reactIcon,
-    name: "Frontend Engeneering",
+    name: "Frontend Engineering",
   },
   {
     icon: sqlIcon,
