@@ -16,3 +16,8 @@ html,
 .main-wrapper section {
   padding: 1rem 2rem;
 }
+@media screen and (max-width:700px) {
+  .main-wrapper section{
+    padding: 10px;
+  }
+}

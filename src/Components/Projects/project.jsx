@@ -1,4 +1,5 @@
 import React from "react";
+import { Slide } from "react-reveal";
 import "./project.css";
 
 const allProjects = [
@@ -75,9 +76,11 @@ const Project = () => {
     <section className="project-wrapper">
       <div className="box-container">
         <h2>Projects</h2>
-        <ul className="container">
-          {allProjects.map((project, idx) => displayProject(project, idx))}
-        </ul>
+        <Slide bottom cascade>
+          <ul className="container">
+            {allProjects.map((project, idx) => displayProject(project, idx))}
+          </ul>
+        </Slide>
       </div>
     </section>
   );

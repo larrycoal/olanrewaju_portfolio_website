@@ -1,0 +1,112 @@
+.testimonial-wrapper {
+  background-color: #201e1e;
+  padding: 0 10rem;
+  min-height: 40vh;
+}
+.testimonial-wrapper h2 {
+  text-align: left;
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem 0;
+}
+.header {
+  background-color: transparent !important;
+  color: white;
+}
+.header button {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.iyoha::after {
+  content: "Designer";
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+}
+.tayo::after {
+  content: "backend engineer";
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+}
+.lekan::after {
+  content: "Full-stack developer";
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+}
+.client::after {
+  content: "Fiverr Client";
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+}
+.header .css-11yukd5-MuiTabs-indicator {
+  background-color: #ffa621;
+}
+.testimonials {
+  color: white;
+}
+.testimonials .content {
+  width: 70%;
+  margin: 30px auto;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  box-shadow: 0px 14px 20px #191818;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.testimonials .content .top {
+  letter-spacing: 0.8px;
+  font-size: 18px;
+}
+.testimonials .content .top span {
+  margin: 0 10px;
+}
+.testimonials .content .bottom {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #ffa621;
+  font-weight: bold;
+  font-style: italic;
+}
+.mobile_testimonial_wrapper {
+  display: none;
+  height: 500px;
+  padding: 20px;
+  background-color: #201e1e;
+}
+.mobile_testimonial_wrapper .css-zjf1nq-MuiPaper-root,
+.mobile_testimonial_wrapper .css-rh92k-MuiPaper-root-MuiMobileStepper-root {
+  background-color: #201e1e;
+}
+.mobile_testimonial_wrapper .m_testimonial {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  box-shadow: 0px 14px 20px #191818;
+  height: 300px;
+  color: white;
+  padding: 1rem;
+}
+@media screen and (max-width: 800px) {
+  .testimonials {
+    display: none;
+  }
+  .testimonial-wrapper {
+    padding: 10px;
+    display: none;
+  }
+  .mobile_testimonial_wrapper {
+    display: block;
+  }
+}
