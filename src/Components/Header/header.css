@@ -1,22 +1,18 @@
 header {
-  position: fixed;
-  top: 0;
-  width: 100vw;
-  background-color: rgba(0, 0, 0, 0.7);
-  z-index: 100;
+background-color: #262424;  
 }
 nav {
   display: flex;
   color: white;
   align-items: center;
-  padding: 10px 2rem;
+  padding: 15px 2rem;
 }
 .logo {
   flex-grow: 1;
+  font-family: 'Rubik Wet Paint', cursive;
+  font-size: 2rem;
 }
-.logo img {
-  height: 50px;
-}
+
 nav ul {
   display: flex;
   list-style: none;

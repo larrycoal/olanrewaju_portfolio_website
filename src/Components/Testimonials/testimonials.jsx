@@ -1,5 +1,4 @@
 import * as React from "react";
-import { Slide } from "react-reveal";
 import PropTypes from "prop-types";
 import SwipeableViews from "react-swipeable-views";
 import { useTheme } from "@mui/material/styles";
@@ -10,7 +9,6 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 
 import MobileStepper from "@mui/material/MobileStepper";
-import Paper from "@mui/material/Paper";
 import Button from "@mui/material/Button";
 import KeyboardArrowLeft from "@mui/icons-material/KeyboardArrowLeft";
 import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
@@ -225,19 +223,7 @@ const Testimonials = () => {
           className="mobile_testimonial_wrapper"
           sx={{ maxWidth: 400, flexGrow: 1 }}
         >
-          <Paper
-            square
-            elevation={0}
-            sx={{
-              display: "flex",
-              alignItems: "center",
-              height: 50,
-              pl: 2,
-              bgcolor: "background.default",
-            }}
-          >
-            <Typography>TESTIMONIALS</Typography>
-          </Paper>
+          <h2>Testimonials</h2>
           <SwipeableViews
             axis={theme.direction === "rtl" ? "x-reverse" : "x"}
             index={activeStep}

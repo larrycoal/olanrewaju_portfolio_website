@@ -29,7 +29,7 @@ const otherSkills = [
   "MongoDb",
   "PostgreSql",
   "Redux",
-  "React-Router",
+  "DotNet",
   "React Native",
 ];
 

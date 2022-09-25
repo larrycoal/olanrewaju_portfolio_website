@@ -1,15 +1,17 @@
 .project-wrapper {
-  background-color: #201e1e;
+background-color: #312b2a;
 }
 .project-wrapper .box-container {
-  background-color: #312b2a;
+  margin: 0 3rem;
   padding: 3rem 0;
 }
 .project-wrapper h2 {
   text-align: center;
   color: white;
   font-size: 3rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  font-family: "Rubik Wet Paint", cursive;
+  text-align: left;
 }
 .project-wrapper .container {
   display: flex;
@@ -18,7 +20,7 @@
   justify-content: center;
   margin: 0 auto;
   gap: 3rem;
-  width: 90%;
+
 }
 
 .project-wrapper .container .project {

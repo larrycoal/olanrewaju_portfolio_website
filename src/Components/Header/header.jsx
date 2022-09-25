@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../../Assets/Logo.png";
 import "./header.css";
 
 const Header = () => {
@@ -7,13 +6,9 @@ const Header = () => {
     <header>
       <nav>
         <div className="logo">
-          <img src={logo} alt="logo" />
+          Olayiwola
         </div>
-        <ul>
-          <li>Home</li>
-          <li>Skills</li>
-          <li>Project</li>
-        </ul>
+      
       </nav>
     </header>
   );
