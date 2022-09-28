@@ -29,8 +29,8 @@ const otherSkills = [
   "MongoDb",
   "PostgreSql",
   "Redux",
-  "DotNet",
-  "React Native",
+  "Java",
+  "Kotlin",
 ];
 
 const displaySkillCard = (skill, idx) => (

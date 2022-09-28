@@ -14,6 +14,7 @@
   /* justify-content: space-between; */
   align-items: flex-end;
   gap: 20px;
+  flex: 1;
 }
 .left {
   font-size: 1.2rem;
@@ -35,7 +36,6 @@
   font-weight: bold;
 }
 .left p {
-  width: 550px;
   line-height: 30px;
   letter-spacing: 1px;
 }
@@ -54,9 +54,11 @@
   overflow: hidden;
 } */
 .right img {
-  height: 450px;
   transition: all ease-in 0.5s;
   transform: rotate(322deg);
+  object-fit: contain;
+  height: 300px;
+
 }
 .right img:hover {
   transform: rotate(358deg);
@@ -102,7 +104,6 @@
     transform: none;
   }
   .left p {
-    width: inherit;
     font-size: 1rem;
   }
  

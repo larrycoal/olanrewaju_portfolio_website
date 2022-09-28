@@ -112,6 +112,9 @@
   font-size: 2rem;
   font-family: "Rubik Wet Paint", cursive;
 }
+.css-1x1xx5k{
+  max-width: 100% !important;
+}
 .mobile_testimonial_wrapper .m_testimonial p:nth-child(1) {
   flex-grow: 1;
 }

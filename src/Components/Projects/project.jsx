@@ -14,8 +14,8 @@ const allProjects = [
   },
   {
     name: "ORGANIC",
-    desc: "This is a landing page i built with html and css for a remote work platform",
-    tag: ["html", "css", "javascript"],
+    desc: "This is a landing page i built with react for an organic lifestyle shop",
+    tag: ["React", "html", "css"],
     image:
       "https://res.cloudinary.com/dbdrtuscd/image/upload/v1652023483/Screenshot_2022-05-06_at_10.32.10_AM_stugdz.png",
     github: "https://github.com/larrycoal/LandingPage_remote",
@@ -23,8 +23,8 @@ const allProjects = [
   },
   {
     name: "OG NFT",
-    desc: "This is a landing page i built with html and css for a remote work platform",
-    tag: ["html", "css", "javascript"],
+    desc: "Designed and built this dApp to mint custom made NFT deployed on the solana devnet",
+    tag: ["solidity", "react", "javascript"],
     image:
       "https://res.cloudinary.com/dbdrtuscd/image/upload/v1652023483/Screenshot_2022-05-06_at_10.34.53_AM_g0yl7w.png",
     github: "https://github.com/larrycoal/LandingPage_remote",
@@ -41,12 +41,21 @@ const allProjects = [
   },
   {
     name: "GITHUB CLONE",
-    desc: "This is a landing page i built with html and css for a remote work platform",
-    tag: ["html", "css", "javascript"],
+    desc: "You can search any github profile with this github clone website",
+    tag: ["html", "css", "javascript", "graphql"],
     image:
       "https://res.cloudinary.com/dbdrtuscd/image/upload/v1652023482/Screenshot_2022-05-06_at_10.33.46_AM_flgjyf.png",
     github: "https://github.com/larrycoal/LandingPage_remote",
     liveLink: "https://loving-kilby-66f091.netlify.app",
+  },
+  {
+    name: "MEMORY GAME",
+    desc: "This is a game built with javascript, it put your meomry to the test ",
+    tag: ["html", "css", "javascript"],
+    image:
+      "https://res.cloudinary.com/dbdrtuscd/image/upload/v1652023482/Screenshot_2022-05-06_at_10.33.46_AM_flgjyf.png",
+    github: "https://github.com/larrycoal/memory_card",
+    liveLink: "hhttps://memcard.netlify.app/",
   },
 ];
 
