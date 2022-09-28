@@ -12,7 +12,6 @@ import MobileStepper from "@mui/material/MobileStepper";
 import Button from "@mui/material/Button";
 import KeyboardArrowLeft from "@mui/icons-material/KeyboardArrowLeft";
 import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
-import { autoPlay } from "react-swipeable-views-utils";
 import "./testimonials.css";
 
 function TabPanel(props) {

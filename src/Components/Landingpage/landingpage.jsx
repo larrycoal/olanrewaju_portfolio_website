@@ -1,6 +1,4 @@
 import React from "react";
-import { Slide, Flip } from "react-reveal";
-import { motion } from "framer-motion";
 import "./landingpage.css";
 import larryEmoji from "../../Assets/hi.png";
 
@@ -9,16 +7,14 @@ const LandingPage = () => {
     <section className="landing-page">
       <div className="hero">
         <div className="right">
-          <Slide bottom>
             <img src={larryEmoji} alt="herosvg" />
-          </Slide>
+
         </div>
 
-        <Flip top cascade>
           <div className="left">
-            <motion.p className="intro">
+            <p className="intro">
               Hi. I’m <span>Olayiwola Olanrewaju</span>
-            </motion.p>
+            </p>
 
             <h2>
               A FULL-STACK WEB DEVELOPER WITH AN EYE FOR INTUITIVE DESIGN SKILLS
@@ -42,7 +38,6 @@ const LandingPage = () => {
               </a>
             </div>
           </div>
-        </Flip>
       </div>
     </section>
   );
