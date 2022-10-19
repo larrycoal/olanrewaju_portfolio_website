@@ -9,7 +9,7 @@
   font-size: 2rem;
   margin-bottom: 2rem;
   padding: 1rem 0;
-  font-family: "Rubik Wet Paint", cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 .header {
   background-color: transparent !important;
@@ -110,7 +110,8 @@
   color: white;
   margin: 1rem 0;
   font-size: 2rem;
-  font-family: "Rubik Wet Paint", cursive;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 .css-1x1xx5k{
   max-width: 100% !important;

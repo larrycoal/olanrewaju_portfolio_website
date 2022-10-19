@@ -23,3 +23,59 @@ nav ul {
 ul li {
   cursor: pointer;
 }
+ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.55rem;
+  text-transform: capitalize;
+  background-image: linear-gradient(#f4f1eb 50%,#ffa621 50%);
+  background-size: 100% 200%;
+  background-position: 0% 0%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  transition: all 550ms ease-in-out;
+}
+ul li a:hover{
+   background-position: 0% 100%;
+}
+.mobile_nav{
+  display: none;
+  
+}
+.mobile_menu{
+  display: none;
+}
+@media screen and (max-width:500px) {
+  .web_nav{
+    display: none;
+  }
+  .mobile_nav{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: transparent;
+    border: none;
+    width: 50px;
+  }
+  .mobile_nav div{
+    background-color: white;
+    width:100%;
+    padding: 2px;
+    transform-origin: left;
+  }
+  .mobile_menu{
+    position: absolute;
+    top: 100px;
+    z-index: 100;
+    width: 100vw;
+    background-color: #262424;
+  }
+  .nav_element{
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav_element a{
+    font-size: 2.7rem;
+  }
+}

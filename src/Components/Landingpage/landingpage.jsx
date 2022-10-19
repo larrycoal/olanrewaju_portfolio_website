@@ -4,8 +4,7 @@ import larryEmoji from "../../Assets/hi.png";
 
 const LandingPage = () => {
   return (
-    <section className="landing-page">
-      <div className="hero">
+    <section className="landing-page hero">
         <div className="right">
           <img src={larryEmoji} alt="herosvg" />
         </div>
@@ -34,7 +33,6 @@ const LandingPage = () => {
             </a>
           </div>
         </div>
-      </div>
     </section>
   );
 };

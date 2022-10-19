@@ -10,11 +10,11 @@
   justify-content: space-around;
 }
 .majorSkills h2 {
-  text-align: left;
+  text-align: center;
   color: white;
   font-size: 2rem;
   margin-bottom: 2rem;
-  font-family: "Rubik Wet Paint", cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 .majorSkills ul {
   list-style: none;
@@ -67,7 +67,8 @@
   color: white;
   margin: 1rem 0;
   font-size: 2rem;
-  font-family: "Rubik Wet Paint", cursive;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 .otherSkills ul {
   list-style: none;

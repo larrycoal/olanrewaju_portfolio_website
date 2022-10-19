@@ -83,7 +83,7 @@ const Project = () => {
   return (
     <section className="project-wrapper">
       <div className="box-container">
-        <h2>Projects</h2>
+        <h2>Some of my work</h2>
           <ul className="container">
             {allProjects.map((project, idx) => displayProject(project, idx))}
           </ul>

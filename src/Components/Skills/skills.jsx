@@ -45,7 +45,7 @@ const Skills = () => {
       <section className="skills-wrapper">
         <div className="majorSkills">
           <div>
-            <h2>Skills</h2>
+            <h2>What i offer</h2>
               <ul>
                 {skillCard.map((skill, idx) => displaySkillCard(skill, idx))}
               </ul>
@@ -57,7 +57,7 @@ const Skills = () => {
       </section>
       <section className="otherSkills">
         <div className="container">
-          <h2>Tools</h2>
+          <h2>Technologies i use</h2>
             <ul>
               {otherSkills.map((skill, idx) => displayOtherSkills(skill, idx))}
             </ul>
