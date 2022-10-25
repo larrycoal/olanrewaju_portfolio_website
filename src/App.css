@@ -4,6 +4,7 @@
   padding: 0;
   font-family: "Raleway", sans-serif;
   font-family: "Roboto Flex", sans-serif;
+  scroll-behavior: smooth;
 }
 body,
 html,
@@ -19,7 +20,5 @@ html,
   padding: 1rem 2rem;
 }
 @media screen and (max-width: 700px) {
-  .main-wrapper section {
-    padding: 10px;
-  }
+ 
 }

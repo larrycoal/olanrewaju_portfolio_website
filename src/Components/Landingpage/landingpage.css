@@ -11,25 +11,29 @@
   color: white;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 20px;
   z-index: 10;
   flex: 1;
 }
-.left .intro {
-  font-size: 1.7rem;
+.left .title {
+  font-size: 3rem;
+  line-height: 55px;
+  font-weight: 500;
+}
+.left .desc{
+  font-size: 1.4rem;
+  line-height: 35px;
+  letter-spacing: 1.9px;
 }
 .left p span {
   color: #ffa621;
 }
-.left h2 {
-  font-size: 1.8rem;
+.left .subtitle {
+  font-size: 1.5rem;
   letter-spacing: 2px;
   font-weight: bold;
 }
-.left p {
-  line-height: 30px;
-  letter-spacing: 1px;
-}
+
 .left .connect {
   color: #ffa621;
   margin: 1rem 0;
@@ -48,7 +52,7 @@
   transition: all ease-in 0.5s;
   /* transform: rotate(322deg); */
   object-fit: contain;
-  height: 400px;
+  height: 600px;
 }
 
 .socials i {
@@ -83,7 +87,6 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin: 4rem 10px;
   }
   .right img{
     height: 300px;

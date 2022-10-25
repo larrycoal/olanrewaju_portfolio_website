@@ -44,7 +44,7 @@ const Header = () => {
       >
         <ul className="nav_element">
           <li>
-            <a href="./">Home</a>
+            <a href="./home">Home</a>
           </li>
           <li>
             <li>
