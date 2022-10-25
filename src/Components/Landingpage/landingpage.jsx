@@ -20,9 +20,9 @@ const LandingPage = () => {
         <p className="desc">
           I am a software engineer based in kitchener ontario. I specialize in building
           application for the web, i build clean, appealing and functional
-          application while complying with latest industry standards using teh
+          application while complying with latest industry standards using the
           MERN stack, also have experience working with technologies outside of
-          this stack. I enjoy online gaming for fun and watching sitcoms
+          this stack. I enjoy online gaming for fun.
         </p>
         <div className="socials">
           <p className="connect">Connect with me on:</p>
