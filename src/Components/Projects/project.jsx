@@ -3,13 +3,13 @@ import "./project.css";
 
 const allProjects = [
   {
-    name: "REMOTE WORK",
-    desc: "This is a landing page i built with html and css for a remote work platform",
+    name: "WE DANCE",
+    desc: "This is a social media platform for event organizers and users looking to have fun in new territory. We dance is an open source project i contribute to with a large number of users",
     tag: ["html", "css", "javascript"],
     image:
-      "https://res.cloudinary.com/dbdrtuscd/image/upload/v1652023483/Screenshot_2022-05-06_at_10.34.28_AM_efgfvg.png",
-    github: "https://github.com/larrycoal/LandingPage_remote",
-    liveLink: "https://landing-page-remote.vercel.app/",
+      "https://res.cloudinary.com/dbdrtuscd/image/upload/v1652023482/Screenshot_2022-05-06_at_10.26.22_AM_kjewtp.png",
+    github: "https://github.com/we-dance/platform",
+    liveLink: "https://wedance.vip/",
   },
   {
     name: "ORGANIC",
@@ -30,13 +30,13 @@ const allProjects = [
     liveLink: "https://og-nft.vercel.app/",
   },
   {
-    name: "RECIPIFY",
-    desc: "This is a landing page i built with html and css for a remote work platform",
+    name: "Quiz IT",
+    desc: "This is a quiz application that test your knowledge on various web related technologies. its is a timed test and display result of test",
     tag: ["html", "css", "javascript"],
     image:
-      "https://res.cloudinary.com/dbdrtuscd/image/upload/v1652023482/Screenshot_2022-05-06_at_10.25.28_AM_z7wxgs.png",
+      "https://res.cloudinary.com/dbdrtuscd/image/upload/v1652023482/Screenshot_2022-05-06_at_10.24.54_AM_uyplwn.png",
     github: "https://github.com/larrycoal/LandingPage_remote",
-    liveLink: "https://recipified.netlify.app",
+    liveLink: "https://quiizit.netlify.app/",
   },
   {
     name: "GITHUB CLONE",
@@ -84,9 +84,9 @@ const Project = () => {
     <section className="project-wrapper">
       <div className="box-container">
         <h2>Select Project</h2>
-          <ul className="container">
-            {allProjects.map((project, idx) => displayProject(project, idx))}
-          </ul>
+        <ul className="container">
+          {allProjects.map((project, idx) => displayProject(project, idx))}
+        </ul>
       </div>
     </section>
   );
