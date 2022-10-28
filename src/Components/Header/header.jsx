@@ -15,7 +15,13 @@ const Header = () => {
           </li>
           <li>
             <li>
-              <a href="./">Resumè</a>
+              <a
+                href="https://drive.google.com/file/d/1NQdmQCfzkNmVQdd2xpsFo67mgKb0uuYm/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Resumè
+              </a>
             </li>
           </li>
           <li>
@@ -39,8 +45,12 @@ const Header = () => {
           ></motion.div>
         </button>
       </nav>
-      <motion.nav className="mobile_menu"
-      animate={{minHeight:openSideBar?"90vh":0, display:openSideBar?"Block":"none"}}
+      <motion.nav
+        className="mobile_menu"
+        animate={{
+          minHeight: openSideBar ? "90vh" : 0,
+          display: openSideBar ? "Block" : "none",
+        }}
       >
         <ul className="nav_element">
           <li>
@@ -48,7 +58,10 @@ const Header = () => {
           </li>
           <li>
             <li>
-              <a href="./">Resumè</a>
+              <a 
+              href="https://drive.google.com/file/d/1NQdmQCfzkNmVQdd2xpsFo67mgKb0uuYm/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer">Resumè</a>
             </li>
           </li>
           <li>
