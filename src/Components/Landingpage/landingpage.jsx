@@ -18,11 +18,11 @@ const LandingPage = () => {
           A FULL-STACK WEB DEVELOPER WITH AN EYE FOR INTUITIVE DESIGN
         </h2>
         <p className="desc">
-          I am a software engineer based in kitchener ontario. I specialize in building
-          application for the web, i build clean, appealing and functional
-          application while complying with latest industry standards using the
-          MERN stack, also have experience working with technologies outside of
-          this stack. I enjoy online gaming for fun.
+          I am a software engineer based in kitchener ontario. I specialize in
+          building application for the web, i build clean, appealing and
+          functional application while complying with latest industry standards
+          using the MERN stack, also have experience working with technologies
+          outside of this stack. I enjoy online gaming for fun.
         </p>
         <div className="socials">
           <p className="connect">Connect with me on:</p>
@@ -46,6 +46,13 @@ const LandingPage = () => {
             rel="noreferrer"
           >
             <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="mailto:larry_coal@outlook.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i class="fa fa-envelope" aria-hidden="true"></i>
           </a>
         </div>
       </div>

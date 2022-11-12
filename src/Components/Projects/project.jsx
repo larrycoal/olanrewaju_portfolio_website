@@ -5,7 +5,7 @@ const allProjects = [
   {
     name: "WE DANCE",
     desc: "This is a social media platform for event organizers and users looking to have fun in new territory. We dance is an open source project i contribute to with a large number of users",
-    tag: ["html", "css", "javascript"],
+    tag: ["Nuxtjs", "scss", "firebase"],
     image:
       "https://res.cloudinary.com/dbdrtuscd/image/upload/v1652023482/Screenshot_2022-05-06_at_10.26.22_AM_kjewtp.png",
     github: "https://github.com/we-dance/platform",
