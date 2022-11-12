@@ -52,9 +52,9 @@ const allProjects = [
     desc: "This is a game built with javascript, it put your meomry to the test ",
     tag: ["html", "css", "javascript"],
     image:
-      "https://res.cloudinary.com/dbdrtuscd/image/upload/v1652023482/Screenshot_2022-05-06_at_10.33.46_AM_flgjyf.png",
+      "https://res.cloudinary.com/dbdrtuscd/image/upload/v1668269929/Screenshot_2022-11-12_at_11.16.52_s0phy9.png",
     github: "https://github.com/larrycoal/memory_card",
-    liveLink: "hhttps://memcard.netlify.app/",
+    liveLink: "https://memcard.netlify.app",
   },
 ];
 
@@ -83,7 +83,7 @@ const Project = () => {
   return (
     <section className="project-wrapper">
       <div className="box-container">
-        <h2>Select Project</h2>
+        <h2 className="header">Projects</h2>
         <ul className="container">
           {allProjects.map((project, idx) => displayProject(project, idx))}
         </ul>

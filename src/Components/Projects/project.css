@@ -1,16 +1,16 @@
 .project-wrapper {
-background-color: #312b2a;
+  background-color: #312b2a;
 }
 .project-wrapper .box-container {
   margin: 0 3rem;
   padding: 3rem 0;
 }
-.project-wrapper h2 {
+.project-wrapper .header {
   text-align: center;
   color: white;
   font-size: 2rem;
   margin-bottom: 2rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
 }
 .project-wrapper .container {
@@ -20,27 +20,29 @@ background-color: #312b2a;
   justify-content: center;
   margin: 0 auto;
   gap: 3rem;
-
 }
 
 .project-wrapper .container .project {
   width: 300px;
-  color: black;
+  color: rgb(247, 242, 242);
   display: flex;
   padding: 0 1rem;
   flex-direction: column;
-  background-color: rgb(240, 234, 234);
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.17);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   text-align: left;
   gap: 1rem;
-  border-radius: 10px;
-    box-shadow: 2px 1px 2px 9px #2d2a2a;
 }
 .project-wrapper .container .project h2 {
-  color: black;
+  color: rgb(247, 242, 242);
   text-align: left;
   font-size: 2rem;
   margin-top: 10px;
-  font-family: 'Rubik Wet Paint', cursive;
 }
 .project-wrapper .container .project img {
   object-fit: cover;
@@ -58,6 +60,11 @@ background-color: #312b2a;
   background-color: transparent;
   margin-right: 10px;
   cursor: pointer;
+  color: white;
+}
+.project-wrapper .container .project button a {
+  color: white;
+  text-decoration: none;
 }
 .project-wrapper .container .project .btn .btn-left {
   border: 1px solid black;
