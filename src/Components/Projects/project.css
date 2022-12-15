@@ -1,5 +1,7 @@
 .project-wrapper {
-  background-color: #312b2a;
+  background-color: #201e1e;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 .project-wrapper .box-container {
   margin: 0 3rem;

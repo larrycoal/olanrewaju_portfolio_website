@@ -11,7 +11,7 @@ const Header = () => {
         <div className="logo">OO</div>
         <ul className="web_nav nav_element">
           <li>
-            <a href="./">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
             <li>
@@ -26,7 +26,7 @@ const Header = () => {
           </li>
           <li>
             <li>
-              <a href="./">Contact me</a>
+              <a href="#contact">Contact me</a>
             </li>
           </li>
         </ul>
@@ -54,7 +54,7 @@ const Header = () => {
       >
         <ul className="nav_element">
           <li>
-            <a href="./home">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
             <li>
@@ -66,7 +66,7 @@ const Header = () => {
           </li>
           <li>
             <li>
-              <a href="./">Contact me</a>
+              <a href="#contact">Contact me</a>
             </li>
           </li>
         </ul>

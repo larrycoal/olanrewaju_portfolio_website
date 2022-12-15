@@ -47,13 +47,6 @@ const LandingPage = () => {
           >
             <i class="fa-brands fa-linkedin"></i>
           </a>
-          <a
-            href="mailto:larry_coal@outlook.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i class="fa fa-envelope" aria-hidden="true"></i>
-          </a>
         </div>
       </div>
     </section>
