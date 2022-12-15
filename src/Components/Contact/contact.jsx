@@ -5,7 +5,7 @@ import "./contact.css"
 
 const Contact = () => {
     return (
-      <div className='contact__wrapper' id='contact'>
+      <div className="contact__wrapper" id="contact">
         <p>Do you have a project you want me to collaborate on?</p>
         <h2>Contact Me</h2>
         <div>
@@ -20,18 +20,14 @@ const Contact = () => {
             <caption>Mail me</caption>
           </span>
           <span>
-            <a
-              href="tel:226-898-1236"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="tel:226-898-1236" target="_blank" rel="noreferrer">
               <i class="fa fa-phone" aria-hidden="true"></i>
             </a>
             <caption>Call me</caption>
           </span>
           <span>
             <a
-              href="mailto:larry_coal@outlook.com"
+              href="https://twitter.com/larry_coal"
               target="_blank"
               rel="noreferrer"
             >
