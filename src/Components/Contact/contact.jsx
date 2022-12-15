@@ -21,7 +21,7 @@ const Contact = () => {
           </span>
           <span>
             <a
-              href="mailto:larry_coal@outlook.com"
+              href="tel:226-898-1236"
               target="_blank"
               rel="noreferrer"
             >
