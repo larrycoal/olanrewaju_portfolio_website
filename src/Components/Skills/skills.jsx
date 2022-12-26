@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import "./skills.css";
 import nodeIcon from "../../Assets/node_icon.png";
 import reactIcon from "../../Assets/react_icon.png";
@@ -33,34 +34,58 @@ const otherSkills = [
 ];
 
 const displaySkillCard = (skill, idx) => (
-  <li key={idx}>
+  <motion.li
+    key={idx}
+    initial={{ opacity: 0, x: -20 }}
+    whileInView={{ opacity: 1, x: 1 }}
+    transition={{ delay: 0.5 }}
+  >
     <img src={skill.icon} alt="skill icon" />
     <p>{skill.name}</p>
-  </li>
+  </motion.li>
 );
-const displayOtherSkills = (skill, idx) => <li key={idx}>{skill}</li>;
+const displayOtherSkills = (skill, idx) => (
+  <motion.li key={idx} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+    {skill}
+  </motion.li>
+);
 const Skills = () => {
   return (
     <>
       <section className="skills-wrapper">
         <div className="majorSkills">
           <div>
-            <h2>What i offer</h2>
-              <ul>
-                {skillCard.map((skill, idx) => displaySkillCard(skill, idx))}
-              </ul>
+            <motion.h2
+              initial={{ opacity: 0, y: -20 }}
+              whileInView={{ opacity: 1, y: 1 }}
+            >
+              What i offer
+            </motion.h2>
+            <ul>
+              {skillCard.map((skill, idx) => displaySkillCard(skill, idx))}
+            </ul>
           </div>
-            <div className="checkImg">
-              <img src={CheckItOut} alt="check out my skills bitmoji" />
-            </div>
+          <div className="checkImg">
+            <motion.img
+              src={CheckItOut}
+              alt="check out my skills bitmoji"
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 1 }}
+            />
+          </div>
         </div>
       </section>
       <section className="otherSkills">
         <div className="container">
-          <h2>Technologies i use</h2>
-            <ul>
-              {otherSkills.map((skill, idx) => displayOtherSkills(skill, idx))}
-            </ul>
+          <motion.h2
+            initial={{ opacity: 0, y: -20 }}
+            whileInView={{ opacity: 1, y: 1 }}
+          >
+            Technologies i use
+          </motion.h2>
+          <ul>
+            {otherSkills.map((skill, idx) => displayOtherSkills(skill, idx))}
+          </ul>
         </div>
       </section>
     </>

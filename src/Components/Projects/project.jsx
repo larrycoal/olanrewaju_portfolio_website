@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import "./project.css";
 
 const allProjects = [
@@ -59,7 +60,13 @@ const allProjects = [
 ];
 
 const displayProject = (project, idx) => (
-  <li key={idx} className="project">
+  <motion.li
+    key={idx}
+    className="project"
+    initial={{ opacity: 0, y: -20 }}
+    whileInView={{ opacity: 1, y: 1 }}
+    transition={{ delay: `0.${idx}` }}
+  >
     <h2 className="title">{project.name}</h2>
     <p className="desc">{project.desc}</p>
     <ul className="tags">
@@ -77,13 +84,19 @@ const displayProject = (project, idx) => (
     </div>
 
     <img src={project.image} alt="project thumbnail" />
-  </li>
+  </motion.li>
 );
 const Project = () => {
   return (
     <section className="project-wrapper">
       <div className="box-container">
-        <h2 className="header">Projects</h2>
+        <motion.h2
+          className="header"
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 1 }}
+        >
+          Projects
+        </motion.h2>
         <ul className="container">
           {allProjects.map((project, idx) => displayProject(project, idx))}
         </ul>
