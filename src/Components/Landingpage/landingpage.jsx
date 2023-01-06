@@ -41,10 +41,10 @@ const LandingPage = () => {
           transition={{ delay: 1.7 }}
         >
           I am a software engineer based in kitchener ontario. I specialize in
-          building application for the web, i build clean, appealing and
-          functional application while complying with latest industry standards
-          using the MERN stack, also have experience working with technologies
-          outside of this stack. I enjoy online gaming for fun.
+          building applications for the web, I build clean, appealing and
+          functional application while complying with latest industry standard
+          using the MERN stack,I also have experience working with technologies
+          outside of this stack. I enjoy online gaming playing football and table tennis for fun.
         </motion.p>
         <div className="socials">
           <motion.p

@@ -6,25 +6,25 @@ const allProjects = [
   {
     name: "WE DANCE",
     desc: "This is a social media platform for event organizers and users looking to have fun in new territory. We dance is an open source project i contribute to with a large number of users",
-    tag: ["Nuxtjs", "scss", "firebase"],
+    tag: ["Nuxtjs", "scss", "Firebase"],
     image:
       "https://res.cloudinary.com/dbdrtuscd/image/upload/v1652023482/Screenshot_2022-05-06_at_10.26.22_AM_kjewtp.png",
     github: "https://github.com/we-dance/platform",
     liveLink: "https://wedance.vip/",
   },
   {
-    name: "ORGANIC",
-    desc: "This is a landing page i built with react for an organic lifestyle shop",
-    tag: ["React", "html", "css"],
+    name: "Shophova",
+    desc: "This is a landing page for a fashion store displaying beautiful layout and color scheme",
+    tag: ["Html", "Css"],
     image:
-      "https://res.cloudinary.com/dbdrtuscd/image/upload/v1652023483/Screenshot_2022-05-06_at_10.32.10_AM_stugdz.png",
-    github: "https://github.com/larrycoal/LandingPage_remote",
-    liveLink: "https://jolly-edison-f808d9.netlify.app",
+      "https://res.cloudinary.com/dbdrtuscd/image/upload/v1652023482/Screenshot_2022-05-06_at_10.26.52_AM_px3dhv.png",
+    github: "https://github.com/larrycoal/Socials",
+    liveLink: "https://shophova.netlify.app/",
   },
   {
     name: "OG NFT",
     desc: "Designed and built this dApp to mint custom made NFT deployed on the solana devnet",
-    tag: ["solidity", "react", "javascript"],
+    tag: ["Solidity", "React", "Javascript"],
     image:
       "https://res.cloudinary.com/dbdrtuscd/image/upload/v1652023483/Screenshot_2022-05-06_at_10.34.53_AM_g0yl7w.png",
     github: "https://github.com/larrycoal/LandingPage_remote",
@@ -33,7 +33,7 @@ const allProjects = [
   {
     name: "Quiz IT",
     desc: "This is a quiz application that test your knowledge on various web related technologies. its is a timed test and display result of test",
-    tag: ["html", "css", "javascript"],
+    tag: ["Html", "Css", "Javascript"],
     image:
       "https://res.cloudinary.com/dbdrtuscd/image/upload/v1652023482/Screenshot_2022-05-06_at_10.24.54_AM_uyplwn.png",
     github: "https://github.com/larrycoal/LandingPage_remote",
@@ -42,7 +42,7 @@ const allProjects = [
   {
     name: "GITHUB CLONE",
     desc: "You can search any github profile with this github clone website",
-    tag: ["html", "css", "javascript", "graphql"],
+    tag: ["Html", "Css", "Javascript", "Graphql"],
     image:
       "https://res.cloudinary.com/dbdrtuscd/image/upload/v1652023482/Screenshot_2022-05-06_at_10.33.46_AM_flgjyf.png",
     github: "https://github.com/larrycoal/LandingPage_remote",
@@ -51,7 +51,7 @@ const allProjects = [
   {
     name: "MEMORY GAME",
     desc: "This is a game built with javascript, it put your meomry to the test ",
-    tag: ["html", "css", "javascript"],
+    tag: ["Html", "Css", "Javascript"],
     image:
       "https://res.cloudinary.com/dbdrtuscd/image/upload/v1668269929/Screenshot_2022-11-12_at_11.16.52_s0phy9.png",
     github: "https://github.com/larrycoal/memory_card",
