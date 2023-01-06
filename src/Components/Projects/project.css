@@ -55,6 +55,8 @@
   gap: 1rem;
   list-style: none;
   font-weight: bold;
+  color: #ffa621;
+  font-size: 14px;
 }
 
 .project-wrapper .container .project button {

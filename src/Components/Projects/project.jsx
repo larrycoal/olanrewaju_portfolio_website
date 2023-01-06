@@ -60,7 +60,7 @@ const allProjects = [
   {
     name: "EMS",
     desc: "This is a Fullstack application for managing employee, with features that include a dashboard visualising important details about employees and CRUD functionalities ",
-    tag: ["React", "Nodejs", "Css"],
+    tag: ["React","Nodejs","ExpressJs","MongoDB"],
     image:
       "https://res.cloudinary.com/dbdrtuscd/image/upload/v1672976079/Screenshot_2023-01-05_at_22.34.02_m0bovq.png",
     github: "https://github.com/larrycoal/employee_management_system",
