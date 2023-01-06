@@ -40,6 +40,10 @@
   text-align: left;
   gap: 1rem;
 }
+.project-wrapper .container .desc{
+  line-height: 25px;
+  letter-spacing: 1px;
+}
 .project-wrapper .container .project h2 {
   color: rgb(247, 242, 242);
   text-align: left;
