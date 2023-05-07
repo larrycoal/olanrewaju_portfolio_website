@@ -64,7 +64,7 @@ const allProjects = [
     image:
       "https://res.cloudinary.com/dbdrtuscd/image/upload/v1672976079/Screenshot_2023-01-05_at_22.34.02_m0bovq.png",
     github: "https://github.com/larrycoal/employee_management_system",
-    liveLink: "http://flashshoes-cons.duckdns.org/",
+    liveLink: "https://employee-management-system-rnsx.onrender.com/",
   },
 ];
 
