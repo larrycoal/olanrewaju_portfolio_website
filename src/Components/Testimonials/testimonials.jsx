@@ -85,89 +85,93 @@ const Testimonials = () => {
           onChangeIndex={handleChangeIndex}
           className="testimonials"
         > */}
-          <TabPanel value={value} index={0} dir={theme.direction}>
-            <div className="content">
-              <p className="top">
-                <span>
-                  <i class="fa fa-quote-left" aria-hidden="true"></i>
-                </span>
-                It has been a true privilege working with Olanrewaju, his
-                ability to understand an existing product and transform it into
-                a more dynamic and interactive feature that drives user
-                engagement cannot be undermined. The BluIntouch product was one
-                of those projects that came with challenges from the B2B user
-                needs, however, with a revamped experience that catered for the
-                users 'Lanre translated the prototype into a fully functional
-                software that telcos, banks and other financial institutions
-                leverage on for their daily business transactions
-                <span>
-                  <i class="fa fa-quote-right" aria-hidden="true"></i>
-                </span>
-              </p>
-              <p className="bottom">
-                <span>Team Mate</span>
-                <span>Blusalt Finanacial services</span>
-              </p>
-            </div>
-          </TabPanel>
-          <TabPanel value={value} index={1} dir={theme.direction}>
-            <div className="content">
-              <p className="top">
-                <span>
-                  <i class="fa fa-quote-left" aria-hidden="true"></i>
-                </span>
-                A wonderful team player with great passion and enthusiasm for
-                what he does. Lanre can go to any length to get things done.
-                <span>
-                  <i class="fa fa-quote-right" aria-hidden="true"></i>
-                </span>
-              </p>
-              <p className="bottom">
-                <span>Team Mate</span>
-                <span>Blusalt Finanacial services</span>
-              </p>
-            </div>
-          </TabPanel>
-          <TabPanel value={value} index={2} dir={theme.direction}>
-            <div className="content">
-              <p className="top">
-                <span>
-                  <i class="fa fa-quote-left" aria-hidden="true"></i>
-                </span>
-                I've had the pleasure of working with Olanrewaju as a colleague.
-                He's a seasoned software engineer who is enthusiastic and
-                passionate about what he does. His ability to connect with team
-                members and stakeholders makes him stand out. I do not doubt
-                that he'll be a valuable resource on any team/project.
-                <span>
-                  <i class="fa fa-quote-right" aria-hidden="true"></i>
-                </span>
-              </p>
-              <p className="bottom">
-                <span>Team Mate</span>
-                <span>Blusalt Finanacial services</span>
-              </p>
-            </div>
-          </TabPanel>
-          <TabPanel value={value} index={3} dir={theme.direction}>
-            <div className="content">
-              <p className="top">
-                <span>
-                  <i class="fa fa-quote-left" aria-hidden="true"></i>
-                </span>
-                He demonstrated amazing dedication and creativity to deliver on
-                a service, i will definitely look forward to working with him
-                again
-                <span>
-                  <i class="fa fa-quote-right" aria-hidden="true"></i>
-                </span>
-              </p>
-              <p className="bottom">
-                <span>Client</span>
-                <span>Neconde energy</span>
-              </p>
-            </div>
-          </TabPanel>
+        <TabPanel
+          className="testimonials"
+          value={value}
+          index={0}
+          dir={theme.direction}
+        >
+          <div className="content">
+            <p className="top">
+              <span>
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+              </span>
+              It has been a true privilege working with Olanrewaju, his ability
+              to understand an existing product and transform it into a more
+              dynamic and interactive feature that drives user engagement cannot
+              be undermined. The BluIntouch product was one of those projects
+              that came with challenges from the B2B user needs, however, with a
+              revamped experience that catered for the users 'Lanre translated
+              the prototype into a fully functional software that telcos, banks
+              and other financial institutions leverage on for their daily
+              business transactions
+              <span>
+                <i class="fa fa-quote-right" aria-hidden="true"></i>
+              </span>
+            </p>
+            <p className="bottom">
+              <span>Team Mate</span>
+              <span>Blusalt Finanacial services</span>
+            </p>
+          </div>
+        </TabPanel>
+        <TabPanel value={value} index={1} dir={theme.direction}>
+          <div className="content">
+            <p className="top">
+              <span>
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+              </span>
+              A wonderful team player with great passion and enthusiasm for what
+              he does. Lanre can go to any length to get things done.
+              <span>
+                <i class="fa fa-quote-right" aria-hidden="true"></i>
+              </span>
+            </p>
+            <p className="bottom">
+              <span>Team Mate</span>
+              <span>Blusalt Finanacial services</span>
+            </p>
+          </div>
+        </TabPanel>
+        <TabPanel value={value} index={2} dir={theme.direction}>
+          <div className="content">
+            <p className="top">
+              <span>
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+              </span>
+              I've had the pleasure of working with Olanrewaju as a colleague.
+              He's a seasoned software engineer who is enthusiastic and
+              passionate about what he does. His ability to connect with team
+              members and stakeholders makes him stand out. I do not doubt that
+              he'll be a valuable resource on any team/project.
+              <span>
+                <i class="fa fa-quote-right" aria-hidden="true"></i>
+              </span>
+            </p>
+            <p className="bottom">
+              <span>Team Mate</span>
+              <span>Blusalt Finanacial services</span>
+            </p>
+          </div>
+        </TabPanel>
+        <TabPanel value={value} index={3} dir={theme.direction}>
+          <div className="content">
+            <p className="top">
+              <span>
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+              </span>
+              He demonstrated amazing dedication and creativity to deliver on a
+              service, i will definitely look forward to working with him again
+              <span>
+                <i class="fa fa-quote-right" aria-hidden="true"></i>
+              </span>
+            </p>
+            <p className="bottom">
+              <span>Client</span>
+              <span>Neconde energy</span>
+            </p>
+          </div>
+        </TabPanel>
         {/* </SwipeableViews> */}
       </Box>
     );
