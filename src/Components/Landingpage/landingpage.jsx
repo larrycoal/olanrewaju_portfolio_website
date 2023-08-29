@@ -40,11 +40,13 @@ const LandingPage = () => {
           whileInView={{ opacity: 1, y: 1 }}
           transition={{ delay: 1.7 }}
         >
-          I am a software engineer based in kitchener ontario. I specialize in
-          building applications for the web, I build clean, appealing and
-          functional application while complying with latest industry standard
-          using the MERN stack,I also have experience working with technologies
-          outside of this stack. I enjoy online gaming playing football and table tennis for fun.
+          I am a passionate Fullstack Developer with a knack for creating seamless
+          digital experiences. As a dedicated Fullstack Engineer, I specialize in
+          React, TypeScript, and NextJs. With a BSc. in Computer Science and a
+          PGD in Web Development, I've honed my skills in crafting captivating
+          user interfaces. From spearheading B2B SaaS platforms to optimizing
+          frontend performance, my mission is to elevate user engagement and
+          drive business growth.
         </motion.p>
         <div className="socials">
           <motion.p

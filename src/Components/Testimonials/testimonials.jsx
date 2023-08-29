@@ -1,6 +1,6 @@
 import * as React from "react";
 import PropTypes from "prop-types";
-import SwipeableViews from "react-swipeable-views";
+//import SwipeableViews from "react-swipeable-views";
 import { useTheme } from "@mui/material/styles";
 import AppBar from "@mui/material/AppBar";
 import Tabs from "@mui/material/Tabs";
@@ -56,9 +56,9 @@ const Testimonials = () => {
     setValue(newValue);
   };
 
-  const handleChangeIndex = (index) => {
-    setValue(index);
-  };
+  // const handleChangeIndex = (index) => {
+  //   setValue(index);
+  // };
 
   const DeskTopView = () => {
     return (
@@ -79,12 +79,12 @@ const Testimonials = () => {
             <Tab label="Neconde Energy" {...a11yProps(0, "client")} />
           </Tabs>
         </AppBar>
-        <SwipeableViews
+        {/* <SwipeableViews
           axis={theme.direction === "rtl" ? "x-reverse" : "x"}
           index={value}
           onChangeIndex={handleChangeIndex}
           className="testimonials"
-        >
+        > */}
           <TabPanel value={value} index={0} dir={theme.direction}>
             <div className="content">
               <p className="top">
@@ -168,7 +168,7 @@ const Testimonials = () => {
               </p>
             </div>
           </TabPanel>
-        </SwipeableViews>
+        {/* </SwipeableViews> */}
       </Box>
     );
   };
@@ -213,9 +213,9 @@ const Testimonials = () => {
         setActiveStep((prevActiveStep) => prevActiveStep - 1);
       };
 
-      const handleStepChange = (step) => {
-        setActiveStep(step);
-      };
+      // const handleStepChange = (step) => {
+      //   setActiveStep(step);
+      // };
 
       return (
         <Box
@@ -223,12 +223,12 @@ const Testimonials = () => {
           sx={{ maxWidth: 400, flexGrow: 1 }}
         >
           <h2>Testimonials</h2>
-          <SwipeableViews
+          {/* <SwipeableViews
             axis={theme.direction === "rtl" ? "x-reverse" : "x"}
             index={activeStep}
             onChangeIndex={handleStepChange}
             enableMouseEvents
-          >
+          > */}
             {allTestimonials.map((step, index) => (
               <div key={step.name}>
                 {Math.abs(activeStep - index) <= 2 ? (
@@ -240,7 +240,7 @@ const Testimonials = () => {
                 ) : null}
               </div>
             ))}
-          </SwipeableViews>
+          {/* </SwipeableViews> */}
           <MobileStepper
             steps={maxSteps}
             position="static"
