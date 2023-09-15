@@ -86,7 +86,6 @@ const Testimonials = () => {
           className="testimonials"
         > */}
         <TabPanel
-          className="testimonials"
           value={value}
           index={0}
           dir={theme.direction}
@@ -233,18 +232,24 @@ const Testimonials = () => {
             onChangeIndex={handleStepChange}
             enableMouseEvents
           > */}
-            {allTestimonials.map((step, index) => (
-              <div key={step.name}>
-                {Math.abs(activeStep - index) <= 2 ? (
-                  <div className="m_testimonial">
-                    <p>{step.testimonial}</p>
-                    <p>{step.name}</p>
-                    <p>{step.position}</p>
-                  </div>
-                ) : null}
-              </div>
-            ))}
+          {/* {allTestimonials.map((step, index) => (
+            <div key={step.name}>
+              {Math.abs(activeStep - index) <= 2 ? (
+                <div className="m_testimonial">
+                  <p>{step[activeStep].testimonial}</p>
+                  <p>{step[activeStep].name}</p>
+                  <p>{step[activeStep].position}</p>
+                </div>
+              ) : null}
+            </div>
+          ))} */}
+
           {/* </SwipeableViews> */}
+          <div className="m_testimonial">
+            <p>{allTestimonials[activeStep].testimonial}</p>
+            <p>{allTestimonials[activeStep].name}</p>
+            <p>{allTestimonials[activeStep].position}</p>
+          </div>
           <MobileStepper
             steps={maxSteps}
             position="static"

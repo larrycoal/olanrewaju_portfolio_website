@@ -54,10 +54,10 @@
 .header .css-11yukd5-MuiTabs-indicator {
   background-color: #ffa621;
 }
-.testimonials {
+.content {
   color: white;
 }
-.testimonials .content {
+.testimonial-wrapper .content {
   width: 70%;
   margin: 30px auto;
   padding: 2rem;
@@ -69,14 +69,14 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.testimonials .content .top {
+.testimonial-wrapper .content .top {
   letter-spacing: 0.8px;
   font-size: 18px;
 }
-.testimonials .content .top span {
+.testimonial-wrapper .content .top span {
   margin: 0 10px;
 }
-.testimonials .content .bottom {
+.testimonial-wrapper .content .bottom {
   align-self: flex-end;
   display: flex;
   flex-direction: column;
