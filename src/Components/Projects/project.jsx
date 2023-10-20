@@ -13,13 +13,13 @@ const allProjects = [
     liveLink: "https://wedance.vip/",
   },
   {
-    name: "Shophova",
-    desc: "This is a landing page for a fashion store displaying beautiful layout and color scheme",
-    tag: ["Html", "Css"],
+    name: "Space Tourism",
+    desc: "This is a beautifully designed website for space tourism, created using react and vanilla css",
+    tag: ["React", "Html", "Css"],
     image:
-      "https://res.cloudinary.com/dbdrtuscd/image/upload/v1652023482/Screenshot_2022-05-06_at_10.26.52_AM_px3dhv.png",
-    github: "https://github.com/larrycoal/Socials",
-    liveLink: "https://shophova.netlify.app/",
+      "https://res.cloudinary.com/dbdrtuscd/image/upload/v1697813889/kscirw3k8hmicoe4bzn5.png",
+    github: "https://github.com/larrycoal/space",
+    liveLink: "https://space-eta-ecru.vercel.app/",
   },
   {
     name: "OG NFT",

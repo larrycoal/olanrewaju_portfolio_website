@@ -22,8 +22,9 @@ const skillCard = [
 
 const otherSkills = [
   "React",
+  "NextJs",
   "VueJs",
-  "Gatsbyjs",
+  "Nodejs",
   "ExpressJs",
   "SCSS",
   "MongoDb",
@@ -31,6 +32,7 @@ const otherSkills = [
   "Redux",
   "Java",
   "Kotlin",
+  "GraphQL"
 ];
 
 const displaySkillCard = (skill, idx) => (

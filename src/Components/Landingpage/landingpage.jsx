@@ -42,8 +42,8 @@ const LandingPage = () => {
         >
           I am a passionate Fullstack Developer with a knack for creating seamless
           digital experiences. As a dedicated Fullstack Engineer, I specialize in
-          React, TypeScript, and NextJs. With a BSc. in Computer Science and a
-          PGD in Web Development, I've honed my skills in crafting captivating
+          React, TypeScript, NextJs and NodeJs. With a BSc. in Computer Science and a
+          MSc in Software Engineering, I've honed my skills in crafting captivating
           user interfaces. From spearheading B2B SaaS platforms to optimizing
           frontend performance, my mission is to elevate user engagement and
           drive business growth.
